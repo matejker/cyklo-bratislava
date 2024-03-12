@@ -19,7 +19,7 @@ function Betweenness() {
                 A good proxy for a potentially suitable cycle path could be such a road segment which is
                 frequently used by other cyclists. We could say it <em>lies in between other routes</em> chosen
                 by cyclists. One approach is to look at heatmaps for instance as I did for
-                &nbsp;<Link to={"/rekola-rides#heatmap"}>Rekola rides</Link>, other Bratislava bike-sharing
+                &nbsp;<Link to={"/cyklo-bratislava/rekola-rides#heatmap"}>Rekola rides</Link>, other Bratislava bike-sharing
                 platform <em>SlovnaftBike</em> or the global Strava heatmap.
             </p>
 
