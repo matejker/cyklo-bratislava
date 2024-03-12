@@ -15,7 +15,7 @@
     "react-router-dom": "^5.3.4",
     "react-scripts": "^5.0.1"
   },
-  "homepage" : "https://matejker.github.io/cyklo-bratislava/",
+  "homepage" : "https://matejker.github.io/cyklo-bratislava/#",
   "scripts": {
     "start": "react-scripts start",
     "build": "rm -rf ./docs && mkdir ./docs && react-scripts build && mv build/* docs",
