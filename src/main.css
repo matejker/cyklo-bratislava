@@ -1,0 +1,238 @@
+body {
+    text-align: center;
+    font-family: et-book, Palatino, Georgia;
+    color: #121212;
+    font-size: 1.3em;
+    background: #f8f8f9;
+    line-height: 1.4em;
+}
+
+#main {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.2em;
+    margin-bottom: 0.2em;
+}
+
+h2.reference {
+    margin-bottom: 0.2em;
+}
+
+.description {
+    font-size: 1.2em;
+}
+
+a {
+    color: #007185;
+}
+
+a:hover {
+    color: #C7511F;
+}
+
+/* http://jsfiddle.net/degaD/ */
+ol.reference {
+    list-style: none;
+    counter-reset: my-badass-counter;
+    margin: 0;
+}
+
+ol.reference li:nth-of-type(1){
+  font-weight: normal;
+}
+
+ol.reference li {
+    list-style-position:outside;
+    margin-left: 0;
+    padding: 0.5em 0.1em;
+    font-size: 0.8em;
+    counter-increment: my-badass-counter;
+    margin-left: -1.3vmin;
+    margin-right: .1vmin;
+}
+
+ol.reference li:before {
+    content: "[" counter(my-badass-counter) "] ";
+    margin-left: -2.8vmin;
+}
+
+.side-note {
+    margin-left: -170px;
+    width: 150px;
+    font-size: 0.8em;
+    float: left;
+    text-align: justify;
+    -ms-word-break: break-all;
+    word-break: break-all;
+
+    /* Non standard for webkit */
+    word-break: break-word;
+
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+footer {
+    color: #555;
+    margin: 0.2em auto;
+    font-size: 0.8em;
+}
+
+/* https://stackoverflow.com/questions/15175269/superscripted-list-items */
+.foot-notes {
+    font-size: 0.8em;
+    border-top: 1px solid #555;
+    counter-reset: item;
+    padding: 0;
+    padding-top: 1em;
+    list-style:none;
+}
+
+.foot-notes li:before{
+    content: counter(item) ")";
+    counter-increment: item;
+    position: absolute;
+    vertical-align:super;
+    font-size:xx-small;
+    left: 1em;
+}
+
+.foot-notes li{
+    position: relative;
+    display: block;
+    padding: .0em .0em .0em 1.5em;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    float: left
+}
+
+.right {
+    float: right;
+}
+
+sup {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+}
+
+sub {
+    vertical-align: baseline;
+    position: relative;
+    top: 0.3em;
+}
+
+.image-desc {
+    color: #555;
+    font-size: 0.6em;
+    display: block;
+}
+
+code {
+    /*white-space: pre;*/
+    font-size: 0.8em;
+}
+
+.tic-tac-toe, .brain {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.tic-tac-toe td {
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    font-size: 2em;
+    border: none;
+    padding: 0;
+}
+
+.tic-tac-toe td.middle, .brain td.middle {
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+}
+
+.tic-tac-toe tr.middle td, .brain tr.middle td {
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+}
+
+.brain {
+    font-size: 0.4em;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+
+.brain td {
+    width: 1.5em;
+    line-height: 1.5em;
+    padding: 0.1em;
+    margin: 0;
+}
+.brain tr {
+    margin: 0;
+    padding: 0;
+}
+
+#scroller {
+    width: calc(100% - 2em);
+    height: calc(9 * 50px);
+    position: absolute;
+    overflow-x: auto;
+    left: 1em;
+    right: 1em;
+    text-align: center;
+}
+
+#slide-container {
+    height: 100%;
+    position: relative;
+    left: 0;
+}
+
+#brains {
+    text-align: center;
+    width: calc(38 * 50px);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.red {
+    color: #f00;
+}
+
+.holder {
+    height: calc(9 * 50px);
+    width: 100%;
+}
+
+ul.inline li {
+    list-style: none;
+    display: inline-block;
+    padding: 0.1em 1em;
+}
+
+.no-style, .no-style:hover {
+    color:  #121212;
+    text-decoration: none;
+}

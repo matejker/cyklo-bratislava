@@ -1,0 +1,42 @@
+{
+  "name": "cyclo-bratislava",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "leaflet": "1.6.0",
+    "leaflet-draw": "^1.0.4",
+    "leaflet.polyline.snakeanim": "0.2.0",
+    "mathjax-react": "^1.0.6",
+    "react": "16.13.1",
+    "react-dom": "^16.12.0",
+    "react-katex": "^2.0.2",
+    "react-leaflet": "^2.7.0",
+    "react-leaflet-draw": "0.19.0",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rm -rf ./docs && mkdir ./docs && react-scripts build && mv build/* docs",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
