@@ -48,7 +48,7 @@ function NetworkGrow() {
                 Later, authors elaborate how to prioritize the new edges, the propose three strategies. First, to connect
                 first points with the highest (node) betweenness centrality, second to connect points with the highest
                 closeness centrality, and third to connect points randomly. To use findings from the second chapter
-                (<Link to={'/cyklo-bratislava/rekola-rides'}>Rekola rides</Link>), I add one more strategy which is prioritize connecting
+                (<Link to={'/rekola-rides'}>Rekola rides</Link>), I add one more strategy which is prioritize connecting
                 points which are frequently used by bike-sharing cyclists.
             </p>
 

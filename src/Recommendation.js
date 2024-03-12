@@ -13,9 +13,9 @@ function Recommendation () {
             <h3>6.1. General recommendations</h3>
             <p>
                 Models described in previous chapters are demonstrating important properties of a <em>good</em> cycle
-                network. First, Natera et.al. [1] showed how to increase <Link to={"/cyklo-bratislava/connectedness"}>network connectedness</Link>
+                network. First, Natera et.al. [1] showed how to increase <Link to={"/connectedness"}>network connectedness</Link>
                 &nbsp; by adding new links to the network. Then, Szell et.al. [2] showed how to increase
-                the <Link to={"/cyklo-bratislava/robustness"}>robustness</Link> and coverage using dense greedy triangulation, but it
+                the <Link to={"/robustness"}>robustness</Link> and coverage using dense greedy triangulation, but it
                 doesn't consider already existing infrastructure. In this chapter, I will propose a general recommendation
                 and outline some routes for extending the network of cycle paths in Bratislava.
             </p>

@@ -20,43 +20,43 @@ export default function App() {
         <Router>
             <div className="App">
                 <div id="main">
-                    <h1><Link to={"/cyklo-bratislava/"} className={'no-style'}>Cyclo Bratislava</Link></h1>
+                    <h1><Link to={"/"} className={'no-style'}>Cyclo Bratislava</Link></h1>
                     <em className="description">
                         A data-driven and network approach to improve cyclo-infrastructure in Bratislava
                     </em>
 
                     <h2>Chapters</h2>
                     <ol id={"chapters"}>
-                        <li><Link to="/cyklo-bratislava/">Intro</Link></li>
-                        <li><Link to="/cyklo-bratislava/rekola-rides">Rekola rides</Link></li>
-                        <li><Link to="/cyklo-bratislava/betweenness">Betweenness</Link></li>
-                        <li><Link to="/cyklo-bratislava/connectedness">Connectedness</Link></li>
-                        <li><Link to="/cyklo-bratislava/robustness">Robustness</Link></li>
-                        <li><Link to="/cyklo-bratislava/recommendation">General recommendations</Link></li>
-                        <li><Link to="/cyklo-bratislava/manifest">Manifest</Link> (SK)</li>
+                        <li><Link to="/">Intro</Link></li>
+                        <li><Link to="/rekola-rides">Rekola rides</Link></li>
+                        <li><Link to="/betweenness">Betweenness</Link></li>
+                        <li><Link to="/connectedness">Connectedness</Link></li>
+                        <li><Link to="/robustness">Robustness</Link></li>
+                        <li><Link to="/recommendation">General recommendations</Link></li>
+                        <li><Link to="/manifest">Manifest</Link> (SK)</li>
                     </ol>
 
 
                     <Switch>
-                        <Route exact path="/cyklo-bratislava/">
+                        <Route exact path="/">
                             <Home />
                         </Route>
-                        <Route path="/cyklo-bratislava/rekola-rides">
+                        <Route path="/rekola-rides">
                             <RekolaRides />
                         </Route>
-                        <Route path="/cyklo-bratislava/betweenness">
+                        <Route path="/betweenness">
                             <Betweenness />
                         </Route>
-                        <Route path="/cyklo-bratislava/connectedness">
+                        <Route path="/connectedness">
                             <Connectedness />
                         </Route>
-                        <Route path={"/cyklo-bratislava/robustness"}>
+                        <Route path={"/robustness"}>
                             <NetworkGrow />
                         </Route>
-                        <Route path={"/cyklo-bratislava/manifest"}>
+                        <Route path={"/manifest"}>
                             <Manifest />
                         </Route>
-                        <Route path="/cyklo-bratislava/recommendation">
+                        <Route path="/recommendation">
                             <Recommendation />
                         </Route>
                     </Switch>
