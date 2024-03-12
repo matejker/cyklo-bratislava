@@ -4,7 +4,7 @@ import { InlineMath, BlockMath } from 'react-katex';
 function Home() {
     return (
         <>
-            <h3>1. Intro</h3>
+            <h2>1. Intro</h2>
             <p>
                 Cities and their traffic are complex systems, lots of different levels of interactions and dependencies
                 are involved. With the rising urgency of climate change and the need to reduce the carbon footprint, and

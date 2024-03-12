@@ -4,7 +4,7 @@ import { InlineMath, BlockMath } from 'react-katex';
 function Manifest() {
     return (
         <>
-            <h3> 7. Manifest</h3>
+            <h2> 7. Manifest</h2>
 
             <p>
                 Cyklo doprava je nevyhnutný komponent v doprave každého väčšieho mesta, je dôležitým prvkom a alternatívou

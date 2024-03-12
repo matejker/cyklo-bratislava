@@ -10,7 +10,7 @@ import final from './img/final.png';
 function Recommendation () {
     return (
         <>
-            <h3>6.1. General recommendations</h3>
+            <h2>6. General recommendations</h2>
             <p>
                 Models described in previous chapters are demonstrating important properties of a <em>good</em> cycle
                 network. First, Natera et.al. [1] showed how to increase <Link to={"/connectedness"}>network connectedness</Link>
@@ -20,7 +20,7 @@ function Recommendation () {
                 and outline some routes for extending the network of cycle paths in Bratislava.
             </p>
 
-            <h3>6.2. Directness</h3>
+            <h3>6.1. Directness</h3>
             <p>
                 Probably the most important aspect of cycle path success is the its <em>usefulness</em>, in previous chapters
                 I demonstrated that a <em>good proxy</em> would be betweenness and directness of the network. First,
@@ -36,7 +36,7 @@ function Recommendation () {
                 </div>
             </div>
 
-            <h3>6.3. Connectedness</h3>
+            <h3>6.2. Connectedness</h3>
             <p>
                 This network contains many of the most important links, but it is not connected. Therefore, to make it
                 connected, I used <em>Largest-to-closest</em> component algorithm proposed by Natera et.al. [1].
@@ -52,7 +52,7 @@ function Recommendation () {
                 </div>
             </div>
 
-            <h3>6.4. Robustness and coverage</h3>
+            <h3>6.3. Robustness and coverage</h3>
             <p>
                 To reinforce the links, we can connect the <em>death-end</em> paths with the closest <em>death-end</em>. This
                 will increase the robustness and coverage of the network. This closes all the gaps in the network and
@@ -68,7 +68,7 @@ function Recommendation () {
                 </div>
             </div>
 
-            <h3>6.5. Limitations</h3>
+            <h3>6.4. Limitations</h3>
             <p>
                 Even though the proposed strategy is based on the state-of-the-art research, it is not perfect. It outlines
                 how to build <em>good enough</em> cyclo network, with significant margins for improvement. Many of the paths
@@ -80,7 +80,7 @@ function Recommendation () {
             </div>
 
 
-            <h3>6.6. Conclusion</h3>
+            <h3>6.5. Conclusion</h3>
             <p>
                 Main purpose of this project was to raise awareness of different concept, treating cycle paths as form of
                 network. To simulate two of the models [1, 2] for extending the network of cycle paths specifically for Bratislava, and
