@@ -1,5 +1,4 @@
 import React from "react";
-import { InlineMath, BlockMath } from 'react-katex';
 import { Link } from "react-router-dom";
 
 import edge_betweeness_cyclo_paths from './img/edge_betweeness_cyclo_paths.png';

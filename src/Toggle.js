@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import './toggle.css';
 
 const Toggle = (values, checkedValue, setCheckedValue, id, name) => {

@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Map, TileLayer, CircleMarker, Popup } from "react-leaflet";
+import { Map, TileLayer, CircleMarker } from "react-leaflet";
 import "leaflet-draw/dist/leaflet.draw.css";
 import "leaflet/dist/leaflet.css";
 import stations from './data/stations_clustered';
-import rents from './data/rents';
-import returns from './data/returns';
 import rents_clustered from './data/rents_clustered';
 import returns_clustered from './data/returns_clustered';
 import { ColorHeatmap, ColorHeatmapValues } from './colorHeatmap';
@@ -32,7 +30,7 @@ const HeatMap = () => {
             setValues(returnValues);
             setOpposite(rents_clustered);
         }
-    }, [checkedValue]);
+    }, [checkedValue, rentValues, returnValues]);
 
     return (
         <>

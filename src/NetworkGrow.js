@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-import { InlineMath, BlockMath } from 'react-katex';
+import { BlockMath } from 'react-katex';
 import betweenness_grow from './img/betweenness_grow.gif';
 import closeness_grow from './img/closeness_grow.gif';
 import random_grow from './img/random_grow.gif';
