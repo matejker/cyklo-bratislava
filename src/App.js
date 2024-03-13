@@ -63,7 +63,7 @@ export default function App() {
                 </div>
                 <footer>
                     &copy; Matej Kerekrety 2023 - {(new Date().getFullYear())}
-                    &nbsp;<a href="https://github.com/matejker/tic-tac-toe"><img src={github} /></a>
+                    &nbsp;<a href="https://github.com/matejker/cyklo-bratislava"><img src={github} /></a>
                 </footer>
             </div>
         </Router>
