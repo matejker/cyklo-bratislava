@@ -33,7 +33,7 @@ export default function App() {
                         <li><Link to="/connectedness">Connectedness</Link></li>
                         <li><Link to="/robustness">Robustness</Link></li>
                         <li><Link to="/recommendation">General recommendations</Link></li>
-                        <li><Link to="/manifest">Manifest</Link> (SK)</li>
+                        {/*<li><Link to="/manifest">Manifest</Link> (SK)</li>*/}
                     </ol>
 
 
