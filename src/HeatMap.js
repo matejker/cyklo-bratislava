@@ -30,7 +30,7 @@ const HeatMap = () => {
             setValues(returnValues);
             setOpposite(rents_clustered);
         }
-    }, [checkedValue, rentValues, returnValues]);
+    }, [checkedValue]);
 
     return (
         <>
