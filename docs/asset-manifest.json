@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cyklo-bratislava/static/css/main.b4ba91f1.css",
-    "main.js": "/cyklo-bratislava/static/js/main.9afe35ae.js",
+    "main.js": "/cyklo-bratislava/static/js/main.9c2c2643.js",
     "static/media/l2s.gif": "/cyklo-bratislava/static/media/l2s.69d1251e1a89e53b79fe.gif",
     "static/media/r2c.gif": "/cyklo-bratislava/static/media/r2c.590148ae4ed7692f289f.gif",
     "static/media/l2c.gif": "/cyklo-bratislava/static/media/l2c.c517b43fdb7da6bc30ea.gif",
@@ -92,10 +92,10 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/cyklo-bratislava/static/media/KaTeX_Size3-Regular.943a01ec6dae1a54fa8b.woff2",
     "index.html": "/cyklo-bratislava/index.html",
     "main.b4ba91f1.css.map": "/cyklo-bratislava/static/css/main.b4ba91f1.css.map",
-    "main.9afe35ae.js.map": "/cyklo-bratislava/static/js/main.9afe35ae.js.map"
+    "main.9c2c2643.js.map": "/cyklo-bratislava/static/js/main.9c2c2643.js.map"
   },
   "entrypoints": [
     "static/css/main.b4ba91f1.css",
-    "static/js/main.9afe35ae.js"
+    "static/js/main.9c2c2643.js"
   ]
 }
