@@ -236,7 +236,7 @@ function RekolaRides() {
             <p>
                 There is roughly the same number of available bikes and stations to park (~300). The station network is
                 very dense and many stations are in a close proximity to another stations, often less than 100m.
-                Such a set up is could be convenient for bike returns as user can return the bike into large pool of
+                Such a set up could be convenient for bike returns as user can return the bike into large pool of
                 possible places. On the other hand, such equal number of bikes and stations tend to favour some
                 "central" stations - hubs, makes hard to find available bikes at all stations. For example
                 station <em>Eurovea 1</em> attracts (and also produces) about 2.5% of all rides.
