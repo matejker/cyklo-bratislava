@@ -1,6 +1,7 @@
 import React from "react";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Connectedness from "./NetworkComponents";
+import RekolaRides from "./RekolaRides";
 import Betweenness from "./Betweenness";
 import NetworkGrow from "./NetworkGrow";
 import Home from "./Home";
@@ -33,6 +34,9 @@ export default function App() {
               <Link to="/">Intro</Link>
             </li>
             <li>
+              <Link to="/rekola-rides">Rekola rides</Link>
+            </li>
+            <li>
               <Link to="/betweenness">Betweenness</Link>
             </li>
             <li>
@@ -49,6 +53,9 @@ export default function App() {
           <Switch>
             <Route exact path="/">
               <Home />
+            </Route>
+            <Route path="/rekola-rides">
+              <RekolaRides />
             </Route>
             <Route path="/betweenness">
               <Betweenness />
