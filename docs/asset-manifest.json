@@ -94,8 +94,5 @@
     "main.b4ba91f1.css.map": "/cyklo-bratislava/static/css/main.b4ba91f1.css.map",
     "main.003edc6d.js.map": "/cyklo-bratislava/static/js/main.003edc6d.js.map"
   },
-  "entrypoints": [
-    "static/css/main.b4ba91f1.css",
-    "static/js/main.003edc6d.js"
-  ]
+  "entrypoints": ["static/css/main.b4ba91f1.css", "static/js/main.003edc6d.js"]
 }
