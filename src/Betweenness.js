@@ -13,14 +13,14 @@ function Betweenness() {
 
   return (
     <>
-      <h2 id={"intro"}>3. Heatmaps and betweenness</h2>
-      <h3 id={"heatmaps"}>3.1. Heatmaps</h3>
+      <h2 id={"intro"}>2. Heatmaps and betweenness</h2>
+      <h3 id={"heatmaps"}>2.1. Heatmaps</h3>
       <p>
         A good proxy for a potentially suitable cycle path could be such a road
         segment which is frequently used by other cyclists. We could say it{" "}
         <em>lies in between other routes</em> chosen by cyclists. One approach
         is to look at heatmaps for instance as I did for &nbsp;
-        <Link to={"/rekola-rides#heatmap"}>Rekola rides</Link>, other Bratislava
+        <a href={"https://matejker.github.io/rekola-rides/#/rekola-rides#heatmap"}>Rekola rides</a>, other Bratislava
         bike-sharing platform <em>SlovnaftBike</em> or the global Strava
         heatmap.
       </p>
@@ -72,7 +72,7 @@ function Betweenness() {
         </div>
       </div>
 
-      <h3 id={"betweenness"}>3.2. Betweenness</h3>
+      <h3 id={"betweenness"}>2.2. Betweenness</h3>
       <p>
         Different approach would be to look at all the Bratislava city network
         as if cyclists from all points (nodes) would like to go to all other
@@ -129,7 +129,7 @@ function Betweenness() {
         build more for cars than for cyclists.
       </p>
 
-      <h3 id={"directness"}>3.3. Directness</h3>
+      <h3 id={"directness"}>2.3. Directness</h3>
       <p>
         The betweenness centrality of the network is a good proxy for the{" "}
         <em>directness</em> of the network. The directness in network science
@@ -141,7 +141,7 @@ function Betweenness() {
         direct and useful for commuting cyclists &nbsp;<em>in general</em>.
       </p>
 
-      <h3 id={"conclusion"}>3.4. Conclusion</h3>
+      <h3 id={"conclusion"}>2.4. Conclusion</h3>
 
       <p>
         Pretty much all of the heatmaps and betweenness centrality of the

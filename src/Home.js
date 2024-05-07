@@ -38,17 +38,18 @@ function Home() {
       </p>
 
       <p>
-        Firstly, I will look at the mobility patterns of{" "}
+        Firstly, I will follow up on my previous work about the mobility patterns of{" "}
         <em>selected subset of Bratislava cyclist</em>, specifically users of
         bike-sharing platform <em>Rekola</em>. I will look at the data of bike
         rides, which describe habits of cyclists and their preferences.
+        See the <a href={'https://matejker.github.io/rekola-rides/#/'}>Rekola rides</a> analysis [1].
       </p>
 
       <p>
         Secondly, by looking at the <em>underlying network</em> of Bratislava
         city, and I will try to quantify it. To solve <em>connectedness</em> of
         the network, I will propose some strategies for extending the existing
-        network of cyclo paths based on paper of Natera, L.G et al. [1].
+        network of cyclo paths based on paper of Natera, L.G et al. [2].
       </p>
 
       <p>
@@ -64,7 +65,7 @@ function Home() {
         road maintenance, accidents, or natural disasters such as flooding.
         Therefore, network should be <em>robust</em>, i.e. it should be able to
         withstand disturbances. Here I will look at the robustness of the
-        network in a light of Szell, M. et al. paper [2].
+        network in a light of Szell, M. et al. paper [3].
       </p>
 
       <p>
@@ -84,6 +85,10 @@ function Home() {
 
       <h3 className="reference">References:</h3>
       <ol className="reference">
+        <li>
+          Kerekrety, M. (2023) <em>Rekola Rides</em>,
+          {" "}<a href={'https://matejker.github.io/rekola-rides/#/'}>Rekola rides</a>
+        </li>
         <li>
           Natera, L.G., Battiston, F., Iñiguez, G., and Szell, M. (2019){" "}
           <em>Data-driven strategies for optimal bicycle network growth</em>,{" "}

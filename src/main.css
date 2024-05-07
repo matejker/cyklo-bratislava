@@ -236,3 +236,9 @@ ul.inline li {
     color:  #121212;
     text-decoration: none;
 }
+
+.mapMargin {
+  width: 1000px;
+  margin-left: -150px;
+  text-align: center;
+}

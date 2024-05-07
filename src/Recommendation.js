@@ -9,7 +9,7 @@ import final from "./img/final.png";
 function Recommendation() {
   return (
     <>
-      <h2>6. General recommendations</h2>
+      <h2>5. General recommendations</h2>
       <p>
         Models described in previous chapters are demonstrating important
         properties of a <em>good</em> cycle network. First, Natera et.al. [1]
@@ -23,7 +23,7 @@ function Recommendation() {
         of cycle paths in Bratislava.
       </p>
 
-      <h3>6.1. Directness</h3>
+      <h3>5.1. Directness</h3>
       <p>
         Probably the most important aspect of cycle path success is the its{" "}
         <em>usefulness</em>, in previous chapters I demonstrated that a{" "}
@@ -45,7 +45,7 @@ function Recommendation() {
         </div>
       </div>
 
-      <h3>6.2. Connectedness</h3>
+      <h3>5.2. Connectedness</h3>
       <p>
         This network contains many of the most important links, but it is not
         connected. Therefore, to make it connected, I used{" "}
@@ -66,7 +66,7 @@ function Recommendation() {
         </div>
       </div>
 
-      <h3>6.3. Robustness and coverage</h3>
+      <h3>5.3. Robustness and coverage</h3>
       <p>
         To reinforce the links, we can connect the <em>death-end</em> paths with
         the closest <em>death-end</em>. This will increase the robustness and
@@ -87,7 +87,7 @@ function Recommendation() {
         </div>
       </div>
 
-      <h3>6.4. Limitations</h3>
+      <h3>5.4. Limitations</h3>
       <p>
         Even though the proposed strategy is based on the state-of-the-art
         research, it is not perfect. It outlines how to build{" "}
@@ -100,7 +100,7 @@ function Recommendation() {
         <img src={final} style={{ width: "1000px", marginLeft: "-150px" }} />
       </div>
 
-      <h3>6.5. Conclusion</h3>
+      <h3>5.5. Conclusion</h3>
       <p>
         Main purpose of this project was to raise awareness of different
         concept, treating cycle paths as form of network. To simulate two of the

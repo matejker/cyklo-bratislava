@@ -12,7 +12,7 @@ import { InlineMath } from "react-katex";
 function Connectedness() {
   return (
     <>
-      <h2 id="intro">4. Connectedness</h2>
+      <h2 id="intro">3. Connectedness</h2>
 
       <p>
         Bratislava has up to 200kms of inner-city cyclo paths. Those paths
@@ -23,7 +23,7 @@ function Connectedness() {
         intersections of streets / road segments between them.
       </p>
 
-      <h3 id="components">4.1. Components</h3>
+      <h3 id="components">3.1. Components</h3>
       <p>
         One of the most frequent complaints about cycle paths in Bratislava is
         that they are not connected. Many cities have the same issues and
@@ -65,7 +65,7 @@ function Connectedness() {
       </div>
 
       <h3 id={"connecting"}>
-        4.2. Connecting cyclo-network into one component
+        3.2. Connecting cyclo-network into one component
       </h3>
       <p>
         In order to increase network usability is to connect this disconnected
@@ -85,7 +85,7 @@ function Connectedness() {
         they add new cycle paths to the existing ones.
       </p>
 
-      <h4 id={"l2s"}>4.2.1. Largest to second largest components</h4>
+      <h4 id={"l2s"}>3.2.1. Largest to second largest components</h4>
       <p>
         The largest (the one with the largest number of nodes) and second
         largest components are connected by the closest nodes in between. The
@@ -95,7 +95,7 @@ function Connectedness() {
         <img src={l2s} style={{ width: "900px", marginLeft: "-100px" }} />
       </div>
 
-      <h4 id={"l2c"}>4.2.2. Largest to closest components</h4>
+      <h4 id={"l2c"}>3.2.2. Largest to closest components</h4>
       <p>
         The largest and closest components are connected by the closest nodes in
         between. This stragegy optimizes the network connectedness and the cost
@@ -105,7 +105,7 @@ function Connectedness() {
         <img src={l2c} style={{ width: "900px", marginLeft: "-100px" }} />
       </div>
 
-      <h4 id={"r2c"}>4.2.3. Random to closest components</h4>
+      <h4 id={"r2c"}>3.2.3. Random to closest components</h4>
       <p>
         A baseline algorithm which connects a random component to the closest
         one. The idea behind this strategy is to check if the order in which
@@ -116,7 +116,7 @@ function Connectedness() {
         <img src={l2c} style={{ width: "900px", marginLeft: "-100px" }} />
       </div>
 
-      <h4 id={"cc"}>4.2.4. Closest to closest components</h4>
+      <h4 id={"cc"}>3.2.4. Closest to closest components</h4>
       <p>
         The two closest components are connected by the closest nodes in
         between. This strategy is expected to optimize the connect network with
@@ -126,7 +126,7 @@ function Connectedness() {
         <img src={cc} style={{ width: "900px", marginLeft: "-100px" }} />
       </div>
 
-      <h3 id={"results"}>4.3. Results</h3>
+      <h3 id={"results"}>3.3. Results</h3>
       <p>
         While all the algorithms are going to connect the cycle network into one
         large component, the difference lies in the order in which those new

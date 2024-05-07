@@ -21,7 +21,7 @@ function NetworkGrow() {
 
   return (
     <>
-      <h2 id={"intro"}>5. Robustness</h2>
+      <h2 id={"intro"}>4. Robustness</h2>
       <p>
         In the previous chapter, I have demonstrated several strategies to
         connect disconnected components of the cycle network. Although, we
@@ -55,14 +55,14 @@ function NetworkGrow() {
         &nbsp;which is also very robust [2].
       </p>
 
-      <h3>5.1. Grow network strategies</h3>
+      <h3>4.1. Grow network strategies</h3>
       <p>
         Later, authors elaborate how to prioritize the new edges, the propose
         three strategies. First, to connect first points with the highest (node)
         betweenness centrality, second to connect points with the highest
         closeness centrality, and third to connect points randomly. To use
         findings from the second chapter (
-        <Link to={"/rekola-rides"}>Rekola rides</Link>), I add one more strategy
+        <a href={"https://matejker.github.io/rekola-rides/#/rekola-rides"}>Rekola rides</a>), I add one more strategy
         which is prioritize connecting points which are frequently used by
         bike-sharing cyclists.
       </p>
@@ -146,7 +146,7 @@ function NetworkGrow() {
         other.
       </p>
 
-      <h3>5.2. Observations</h3>
+      <h3>4.2. Observations</h3>
       <ul>
         <li>
           <em>Betweeness</em>: It prioritize the flow and stretch the most
@@ -180,7 +180,7 @@ function NetworkGrow() {
         </div>
       </div>
 
-      <h3>5.3. Measures</h3>
+      <h3>4.3. Measures</h3>
 
       <ul>
         <li>
@@ -225,7 +225,7 @@ function NetworkGrow() {
         the closeness strategy.
       </p>
 
-      <h3>5.4. Conclusion</h3>
+      <h3>4.4. Conclusion</h3>
       <p>
         This approach builds robust, connected, direct and dense cyclo network
         which is covering vast area of the city. Also this is very useful for
